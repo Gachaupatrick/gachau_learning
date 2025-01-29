@@ -7,6 +7,14 @@
 4. Install Power BI Desktop from [Microsoft Store](https://www.microsoft.com/store/productId/9NTXR16HNW1T)
 
 ## VS Code Extensions
+1. Cline - Autonomous Coding Agent
+   - Search for "Cline" in VS Code extensions
+   - Click Install
+   - Configure API key in extension settings
+   - Access via:
+     * Cline icon in sidebar, or
+     * CMD/CTRL + Shift + P -> "Cline: Open In New Tab"
+
 Install these extensions in VS Code:
 1. Python (Microsoft)
 2. Jupyter (Microsoft)
