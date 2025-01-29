@@ -8,15 +8,31 @@
    - Git installation and setup
 
 2. Required Libraries
-   ```
+   ```python
+   # Data Analysis
    pandas>=2.0.0
    numpy>=1.24.0
+   scipy>=1.10.0
+   
+   # Visualization
    matplotlib>=3.7.0
    seaborn>=0.12.0
+   plotly>=5.13.0
+   
+   # Jupyter Environment
    jupyter>=1.0.0
+   ipykernel>=6.0.0
+   
+   # Machine Learning
    scikit-learn>=1.2.0
+   
+   # Data Collection
    requests>=2.28.0
+   beautifulsoup4>=4.11.0
+   
+   # Utilities
    python-dotenv>=1.0.0
+   tqdm>=4.65.0
    ```
 
 3. Power BI Setup
@@ -31,17 +47,19 @@
    - ChatGPT Prompt Engineering
 
 ## Data Sources
-1. Sales Data
-   - Walmart Sales Dataset (Kaggle)
-   - Global Superstore Dataset
-   - Amazon Sales Data
+1. Generated Sales Data
+   - Custom retail sales generator
+   - Realistic temporal patterns
+   - Seasonal effects
+   - Promotional impacts
+   - Regional variations
 
-2. Healthcare Data
+2. Future Healthcare Data
    - CDC COVID-19 Dataset
    - WHO Global Health Data
    - Hospital Readmissions Data
 
-3. Food Industry Data
+3. Future Food Industry Data
    - USDA Food Database
    - Yelp Dataset
    - Global Food Prices Data

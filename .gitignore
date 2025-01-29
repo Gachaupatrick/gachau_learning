@@ -70,5 +70,3 @@ datasets/**/*.xlsx
 .pytest_cache/
 .coverage
 htmlcov/
-cline_docs/*
-cline_docs
