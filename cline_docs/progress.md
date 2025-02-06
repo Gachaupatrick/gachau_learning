@@ -9,7 +9,7 @@
 
 ## Module 1 Status
 ### Core Materials
-- ✅ Python basics notebook
+- ✅ Python basics notebook - Completed
 - ✅ pandas introduction notebook
 - ✅ Solutions notebook
 - ✅ Sample datasets
