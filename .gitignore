@@ -49,7 +49,7 @@ ehthumbs.db
 Thumbs.db
 
 # Large Data Files
-datasets/**/*.csv
+#datasets/**/*.csv
 datasets/**/*.json
 datasets/**/*.xlsx
 !datasets/**/sample*.csv
