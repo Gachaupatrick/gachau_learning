@@ -1,83 +1,103 @@
-# Student Progress Dashboard
+# Learning Progress Dashboard
 
-## Overall Progress
-- [ ] Module 1: Foundation with Real Data
-- [ ] Module 2: Advanced Data Manipulation
-- [ ] Module 3: AI-Powered Analysis
-- [ ] Module 4: Business Intelligence
+## Learning Path
+```mermaid
+graph TD
+    subgraph "Foundation Phase"
+        A[Module 1: Python Basics] --> B[Module 1.5: IBM Data Analysis]
+        B --> C[Module 2: Advanced Manipulation]
+    end
+    
+    subgraph "Advanced Phase"
+        C --> D[Module 3: AI Analysis]
+        D --> E[Module 4: Business Intelligence]
+    end
+    
+    subgraph "Module 1.5 Details"
+        B --> M1[Importing Datasets]
+        B --> M2[Data Wrangling]
+        B --> M3[Exploratory Analysis]
+        B --> M4[Model Development]
+        B --> M5[Model Evaluation]
+        B --> M6[Final Project]
+    end
 
-## Current Focus
-- Current module: Module 1: Foundation with Real Data
-- Current topic: Python Basics
-- Next milestone: Complete Python basics notebook and exercises
+    style B fill:#f9f,stroke:#333,stroke-width:4px
+```
 
-## Module Status
+## Current Status
+Foundation Phase: [##--------] 20%
+Advanced Phase: Not Started
 
-### Module 1: Foundation with Real Data
-- Status: In Progress
-- Progress: 0/3 core activities completed
-- Key achievements:
-  * None yet
-- Current focus:
-  * Python basics notebook
-  * Basic data structures
-  * Introduction to pandas
+## Active Module: 1.5 - IBM Data Analysis with Python
+- Course Link: [Data Analysis with Python](https://www.coursera.org/learn/data-analysis-with-python)
+- Current Topic: Importing Datasets
+- Progress: 0/6 Modules Complete
+- Next Milestone: Complete Module 1 - Importing Datasets
 
-### Module 2: Advanced Data Manipulation
-- Status: Not Started
-- Progress: 0/4 core activities completed
-- Planned start date: TBD
+## Module Completion Status
 
-### Module 3: AI-Powered Analysis
-- Status: Not Started
-- Progress: 0/3 core activities completed
-- Planned start date: TBD
+### ✅ Module 1: Python Basics
+- [x] Python fundamentals
+- [x] Basic data structures
+- [x] Control structures
+- [x] Functions and modules
 
-### Module 4: Business Intelligence
-- Status: Not Started
-- Progress: 0/3 core activities completed
-- Planned start date: TBD
+### 🔄 Module 1.5: IBM Data Analysis
+- [ ] Module 1: Importing Datasets
+  * Understanding data types
+  * Reading various file formats
+  * Basic data exploration
+- [ ] Module 2: Data Wrangling
+  * Handling missing values
+  * Data formatting
+  * Data normalization
+- [ ] Module 3: Exploratory Data Analysis
+  * Descriptive statistics
+  * Data visualization
+  * Correlation analysis
+- [ ] Module 4: Model Development
+  * Linear regression
+  * Model evaluation
+  * Polynomial regression
+- [ ] Module 5: Model Evaluation
+  * Over/underfitting
+  * Ridge regression
+  * Grid search
+- [ ] Module 6: Final Project
+  * Applied data analysis
+  * Real-world dataset
+  * Complete analysis pipeline
+
+### ⏳ Module 2: Advanced Manipulation
+Status: Not Started
+
+### ⏳ Module 3: AI Analysis
+Status: Not Started
+
+### ⏳ Module 4: Business Intelligence
+Status: Not Started
 
 ## Recent Activity
-- [YYYY-MM-DD]: Initial progress tracking setup
-
-## Skills Assessment
-
-### Python Fundamentals
-- [ ] Basic syntax and data types
-- [ ] Control structures
-- [ ] Functions and modules
-- [ ] Error handling
-
-### Data Analysis
-- [ ] pandas basics
-- [ ] Data cleaning
-- [ ] Data manipulation
-- [ ] Basic visualization
-
-### AI Tools
-- [ ] LangChain fundamentals
-- [ ] Automated insights
-- [ ] Pattern recognition
-
-### Business Intelligence
-- [ ] Power BI basics
-- [ ] Dashboard creation
-- [ ] Report design
-
-## Notes
-- Start date: [YYYY-MM-DD]
-- Target completion: [YYYY-MM-DD]
-- Learning pace: [X] hours per week
+- [2025-02-14] Initial progress tracking setup
+- [2025-02-14] Completed Module 1: Python Basics
+- [2025-02-14] Started IBM Data Analysis Course
 
 ## Next Steps
-1. Complete Python basics notebook
-2. Practice basic pandas operations
-3. Submit initial exercises for review
+1. Complete Module 1 of IBM course (Importing Datasets)
+   - Watch all video lectures
+   - Complete hands-on exercises
+   - Take module quiz
+2. Practice with sample datasets
+3. Prepare questions for next review meeting
 
-## Resources Accessed
-- [ ] Python basics notebook
-- [ ] pandas introduction notebook
-- [ ] Excel to Python cheat sheet
-- [ ] Common errors guide
-- [ ] Visualization guide
+## Resources
+- IBM Course Materials
+- Python basics notebook
+- Sample datasets for practice
+- Course discussion forums
+
+## Notes
+- Learning Pace: [X] hours per week
+- Target completion for Module 1.5: [Date]
+- Review sessions scheduled: [Frequency]
